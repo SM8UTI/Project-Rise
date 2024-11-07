@@ -19,27 +19,27 @@ import Icon from "react-native-remix-icon";
 const socialMediaLinks = [
   {
     name: "Facebook Page Link",
-    url: "https://www.facebook.com/prayasinstituteofficial",
+    url: "",
     icon: "facebook-line",
   },
   {
     name: "Twitter Page Link",
-    url: "https://twitter.com/mantra_prayas",
+    url: "",
     icon: "twitter-line",
   },
   {
     name: "Instagram Page Link",
-    url: "https://www.instagram.com/prayas_institute_bhl/",
+    url: "",
     icon: "instagram-line",
   },
   {
     name: "LinkedIn Page Link",
-    url: "https://www.linkedin.com/in/prayas-institute-13831b232/",
+    url: "",
     icon: "linkedin-box-line",
   },
   {
     name: "YouTube Channel",
-    url: "https://www.youtube.com/channel/UCO4AGHWrJF9byVPncMVqqAw",
+    url: "",
     icon: "youtube-line",
   },
 ];
@@ -99,14 +99,13 @@ const helpSupport = () => {
             Contact Information – Head Office
           </Text>
           <Text className="text-sm text-text font-primary text-center mt-1">
-            Address: F-799 near Solanki vatika shastri nagar main road, Bhilwara
-            311001
+            Address: 
           </Text>
           <Text className="text-sm text-text font-primary text-center mt-1">
-            Contact Number: 8982845157
+            Contact Number: 
           </Text>
           <Text className="text-sm text-text font-primary text-center mt-1">
-            Email: Mantra.prayas@gmail.com
+            Email: 
           </Text>
         </View>
 
