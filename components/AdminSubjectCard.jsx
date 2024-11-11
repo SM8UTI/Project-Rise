@@ -20,6 +20,8 @@ const AdminSubjectCard = ({ subjectName, description, createdAt }) => {
     history: require("../assets/appIcons/his.png"),
     physics: require("../assets/appIcons/physic.png"),
     chemistry: require("../assets/appIcons/chemistry.png"),
+    cat: require("../assets/appIcons/book.png"),
+    cat: require("../assets/appIcons/book.png"),
   };
 
   const subjectColor = {
@@ -31,6 +33,7 @@ const AdminSubjectCard = ({ subjectName, description, createdAt }) => {
     history: "#EB7900",
     physics: "#CC5DE8",
     chemistry: "#2196F3",
+    cat: "#fff",
   };
 
   const [subjectData, setSubjectData] = useState({
@@ -79,6 +82,10 @@ const AdminSubjectCard = ({ subjectName, description, createdAt }) => {
       setSubjectData({
         image: subjectIcon.chemistry,
         color: subjectColor.chemistry,
+      });
+    } else if (subject.includes("cat")) {
+      setSubjectData({
+        image: subjectIcon.cat,
       });
     }
   };

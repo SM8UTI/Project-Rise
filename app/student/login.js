@@ -19,7 +19,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { colors } from "../../utils/constant";
 const login = () => {
   const [data, setData] = useState({
-    email: "chakit.23mca10072@vitbhopal.ac.in",
+    email: "adityasingh5658@gmail.com",
     password: "Chakit@123",
   });
 

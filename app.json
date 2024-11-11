@@ -67,9 +67,16 @@
         "origin": false
       },
       "eas": {
+<<<<<<< HEAD
         "projectId": "b0798ac6-d9e8-49c3-a099-e27bfc97e2ae"
       }
     },
     "owner": "chakit"
+=======
+        "projectId": "7d3958e3-153a-420c-8e3a-3bb8c1b47975"
+      }
+    },
+    "owner": "aclogger850"
+>>>>>>> 056be67ff904ef5a00ba7a75a43e26eaa0263b9c
   }
 }
