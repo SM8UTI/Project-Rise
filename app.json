@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Rise Education Raipur",
-    "slug": "RER",
-    "scheme": "RER",
+    "slug": "riseedu",
+    "scheme": "RERS",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,9 @@
       "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -21,7 +23,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.chakit.lMS",
+      "package": "com.chakit.RiseEdu",
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO",
@@ -65,9 +67,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "0eaf98c7-e37b-419a-955d-31119c540755"
+        "projectId": "b0798ac6-d9e8-49c3-a099-e27bfc97e2ae"
       }
     },
-    "owner": "sm8uti"
+    "owner": "chakit"
   }
 }
